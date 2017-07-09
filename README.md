@@ -5,7 +5,7 @@
 
 [![Build Status][travis-image]][travis-url]
 
-Welcome to the open source repo of the Spotify Dogfood mod. Here you'll find each release's patches divided by branches, as well as binaries in the Releases.
+Welcome to the repo of the Spotify Dogfood mod. Here you'll find each release's patches divided by branches, as well as binaries in the Releases.
 
 ## Installation of a prebuilt version
 
@@ -18,7 +18,32 @@ Welcome to the open source repo of the Spotify Dogfood mod. Here you'll find eac
 
 ## Development setup
 
- - - --- - - - - -- -
+To apply the patchsets manually, you need the following tools: 
+* [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), and preferably [GitHub's app for Windows](https://desktop.github.com/).
+* [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and it's [environment variables properly set-up](https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/)
+* [APKtool](https://ibotpeaches.github.io/Apktool/)
+* [An Android Keystore to sign your APKs](https://developer.android.com/studio/publish/app-signing.html#signing-manually)
+* The version you wish to apply the patchset to, from [APKmirror](http://www.apkmirror.com/apk/spotify-ltd/spotify/).
+* [Android Debugging Bridge](http://www.androidauthority.com/about-android-debug-bridge-adb-21510/) installed (perferably system-wide), as well as [it's drivers](https://adb.clockworkmod.com/) if you're on Windows.
+
+Once you meet all of the above, it's as easy as it follows:
+
+```
+#unpack the apk
+java -jar apktool_WhateverVersion.jar d NameOfTheApk.apk && cd NameOfTheApk
+#now copy the patch file to the dir you're on
+git apply --stat NameOfThePatch.path #checks the stats
+git apply --check NameOfThePatch.path #sees if it's compatible with the environment
+git apply NameOfThePatch.path #applies the patch
+#compile the result
+java -jar apktool_WhateverVersion.jar b NameOfTheDirectory
+#sign with your key
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore /path/to/your/keystore NameOfTheDirectory/dist/NameOfTheResultingFile.apk YOURALIAS
+#install the final apk
+adb install -r NameOfTheDirectory/dist/NameOfTheResultingFile.apk
+```
+If you want to review the patch itself, you can use [git-am](https://stackoverflow.com/a/6948876).
+If you want to review the mod to the liborbit-jni file, check the [wiki] page.
 
 ## Meta
 
