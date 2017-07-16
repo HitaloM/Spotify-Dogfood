@@ -47,7 +47,7 @@ If you want to review the mod to the liborbit-jni file, check the [wiki] page.
 
 ## Meta
 
-LinuxCT – [@linuxct](https://twitter.com/linuxct) – [Telegram Group @spotifydogfood](https://t.me/spotifydogfood) – linuxct@openmailbox.org  
+LinuxCT – [@linuxct](https://twitter.com/linuxct) – Telegram Group [@spotifydogfood](https://t.me/spotifydogfood) – linuxct@openmailbox.org  
 [Project webpage](https://cdn.sergiocastell.com/Spotify/)
 
 ## Contributing
