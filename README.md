@@ -67,4 +67,4 @@ This repo, as well as the provided patches are just for demonstrative & educatio
 [travis-url]: https://travis-ci.org
 [wiki]: https://github.com/sergiocastell/spotify-dogfood/wiki/The-liborbit-jni-spotify.so-file
 [version-image]: https://img.shields.io/github/release/sergiocastell/spotify-dogfood.svg?style=flat-square
-[version-url]: https://github.com/sergiocastell/spotify-dogfood/releases
+[version-url]: https://github.com/sergiocastell/spotify-dogfood/releases/latest
