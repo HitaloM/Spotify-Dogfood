@@ -3,7 +3,7 @@
 # Spotify Dogfood
 > The Spotify Dogfood mod provides an ad-free Spotify experience on Android devices.
 
-[![Build Status][travis-image]][travis-url]
+[![Build Status][travis-image]][travis-url] [![GitHub release][version-image]][version-url]
 
 Welcome to the repo of the Spotify Dogfood mod. Here you'll find each release's patches divided by branches, as well as binaries in the Releases.
 
@@ -66,3 +66,5 @@ This repo, as well as the provided patches are just for demonstrative & educatio
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org
 [wiki]: https://github.com/sergiocastell/spotify-dogfood/wiki/The-liborbit-jni-spotify.so-file
+[version-image]: https://img.shields.io/github/release/sergiocastell/spotify-dogfood.svg?style=flat-square
+[version-url]: https://github.com/sergiocastell/spotify-dogfood/releases
