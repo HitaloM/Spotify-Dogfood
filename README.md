@@ -63,7 +63,7 @@ LinuxCT – [@linuxct](https://twitter.com/linuxct) – Telegram Group [@spotify
 This repo, as well as the provided patches are just for demonstrative & educational purposes. They should not be used for illegal actions, and/or any action that can imply a violation in the ToS of the software used and mentioned in the repo. It is you, the final user, the one who takes the responsibility of using it wisely, as a functional PoC, and not for piracy or any other illegal actions.
 
 <!-- Markdown link & img dfn's -->
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
+[travis-image]: https://img.shields.io/circleci/project/github/badges/shields.svg?style=flat-square
 [travis-url]: https://travis-ci.org
 [wiki]: https://github.com/sergiocastell/spotify-dogfood/wiki/The-liborbit-jni-spotify.so-file
 [version-image]: https://img.shields.io/github/release/sergiocastell/spotify-dogfood.svg?style=flat-square
