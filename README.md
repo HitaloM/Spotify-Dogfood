@@ -1,7 +1,7 @@
-![](https://cdn.linuxct.info/Spotify/images/icon.png)
+![](https://forum.xda-developers.com/android/apps-games/mod-spotify-dogfood-ad-free-spotify-t3632423)
 
-# Spotify Dogfood
-> The Spotify Dogfood mod provides an ad-free Spotify experience on Android devices.
+# Spotify Dogfood [DISCONTINUED]
+> The Spotify Dogfood mod provides an ad-free Spotify experience on Android devices. By Linuxct
 
 [![Build Status][travis-image]][travis-url] [![GitHub release][version-image]][version-url]
 
@@ -10,7 +10,7 @@ Welcome to the repo of the Spotify Dogfood mod. Here you'll find each release's 
 ## Installation of a prebuilt version
 
 * Remove previous installations of Spotify.
-* Download the latest version from the [releases section](https://github.com/sergiocastell/spotify-dogfood/releases). 
+* Download the latest version from the [releases section](https://telegram.dog/SpotifyDogfoodRepo).
 * [Enable 'Unknown sources'](https://android.stackexchange.com/questions/77280/allow-unknown-sources-from-terminal-without-going-to-settings-app) under [Android Settings > Security](https://www.androidcentral.com/unknown-sources).
 * Install just like any other APK via any File manager or, if you plan to use this app with an Android Auto car, [read this article](https://www.xda-developers.com/psa-spotify-and-other-apps-not-working-with-android-auto-heres-a-fix/).
 * ???
@@ -47,12 +47,12 @@ If you want to review the mod to the liborbit-jni file, check the [wiki] page.
 
 ## Meta
 
-LinuxCT – [@linuxct](https://twitter.com/linuxct) – Telegram Group [@spotifydogfood](https://t.me/spotifydogfood) – iamlinuxct@linuxct.info  
+LinuxCT – [@linuxct](https://twitter.com/linuxct) – Telegram Group [@spotifydogfoodrepo](https://t.me/spotifydogfoodrepo) – iamlinuxct@linuxct.info  
 [Project webpage](https://cdn.linuxct.info/Spotify/) – [Project repo](https://github.com/spotify-dogfood) – [Updater for Spotify](https://github.com/spotify-dogfood/updater-for-spotify)
 
 ## Contributing
 
-1. Fork it (<https://github.com/sergiocastell/spotify-dogfood/fork>)
+1. Fork it (<https://github.com/hitalosama/spotify-dogfood/fork>)
 2. Create your branch (`git checkout -b yourname/version`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin yourname/version`)
@@ -65,6 +65,6 @@ This repo, as well as the provided patches are just for demonstrative & educatio
 <!-- Markdown link & img dfn's -->
 [travis-image]: https://img.shields.io/circleci/project/github/badges/shields.svg?style=flat-square
 [travis-url]: https://travis-ci.org
-[wiki]: https://github.com/sergiocastell/spotify-dogfood/wiki/The-liborbit-jni-spotify.so-file
-[version-image]: https://img.shields.io/github/release/sergiocastell/spotify-dogfood.svg?style=flat-square
-[version-url]: https://github.com/sergiocastell/spotify-dogfood/releases/latest
+[wiki]: https://github.com/hitalosama/spotify-dogfood/wiki/The-liborbit-jni-spotify.so-file
+[version-image]: https://img.shields.io/github/release/hitalosama/spotify-dogfood.svg?style=flat-square
+[version-url]: https://github.com/hitalosama/spotify-dogfood/releases/latest
